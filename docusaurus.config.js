@@ -12,7 +12,6 @@ const config = {
   baseUrl: '/',
   trailingSlash: false,
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
 
   // GitHub pages deployment config.
@@ -24,8 +23,8 @@ const config = {
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'zh-tw',
-    locales: ['zh-tw'],
+    defaultLocale: 'zh-CN',
+    locales: ['zh-CN', 'zh-TW'],
   },
 
   plugins: [
