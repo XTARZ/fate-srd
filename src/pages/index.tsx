@@ -18,7 +18,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/fate-condensed/intro">
-              命運 SRD 全文
+              命运 SRD 全文
           </Link>
         </div>
       </div>
@@ -31,7 +31,7 @@ export default function Home(): JSX.Element {
   return (
     <Layout
       title={siteConfig.title}
-      description="由洪偉所維護的命運 Fate SRD">
+      description="由洪伟所维护的命运 Fate SRD">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

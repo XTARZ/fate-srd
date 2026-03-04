@@ -38,7 +38,7 @@ export function Refresh(): JSX.Element {
         </div>
       </Title>
       <div className='text-xs pl-36 ml-6'>
-        從 {refreshMax} 開始
+        从 {refreshMax} 开始
       </div>
     </div>
   )

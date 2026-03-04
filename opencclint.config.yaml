@@ -1,0 +1,4 @@
+conversion:
+  from: "t"
+  to: "cn"
+fix: true

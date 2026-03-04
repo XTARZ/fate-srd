@@ -10,10 +10,10 @@ const degreeMap = {
   "extreme": 8,
 }
 const degreeNampMap = {
-  "mild": "輕微",
+  "mild": "轻微",
   "moderate": "中度",
-  "severe": "嚴重",
-  "extreme": "極端",
+  "severe": "严重",
+  "extreme": "极端",
 }
 export function Consequence({
   degree,
@@ -137,15 +137,15 @@ export function Vitals(): JSX.Element {
       <BlockContainer>
         <div className='w-full'>
           <Subtitle>
-            壓力
+            压力
           </Subtitle>
           <div>
             <StressTrack label="物理" number={
-              skillsAssign["體魄"] === 0 ? 3
-                : skillsAssign["體魄"] < 3 ? 4
+              skillsAssign["体魄"] === 0 ? 3
+                : skillsAssign["体魄"] < 3 ? 4
                   : 6
             } />
-            <StressTrack label="心靈" number={
+            <StressTrack label="心灵" number={
               skillsAssign["意志"] === 0 ? 3
                 : skillsAssign["意志"] < 3 ? 4
                   : 6
@@ -154,7 +154,7 @@ export function Vitals(): JSX.Element {
         </div>
         <div className='w-full'>
           <Subtitle>
-            後果
+            后果
           </Subtitle>
           <div>
             <Consequence degree="mild" />
@@ -163,7 +163,7 @@ export function Vitals(): JSX.Element {
             <Consequence
               degree="mild"
               status={
-                skillsAssign["體魄"] < 5 && skillsAssign["意志"] < 5 ? "disabled" : "active"
+                skillsAssign["体魄"] < 5 && skillsAssign["意志"] < 5 ? "disabled" : "active"
               }
             />
           </div>

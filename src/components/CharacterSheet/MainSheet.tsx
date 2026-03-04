@@ -56,7 +56,7 @@ export default function MainSheet(): JSX.Element {
             zIndex: -10,
           }}
         >
-          列印範圍↘
+          列印范围↘
         </div>
         <div
           className="absolute border-l-0 border-t-0 border-solid border-slate-200"

@@ -10,11 +10,11 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: '美好的泛用系統',
+    title: '美好的泛用系统',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        命運（Fate）是美好的、可高度客製、無限風格適應性、適用於所有想好好說故事的團的遊戲系統。
+        命运（Fate）是美好的、可高度客制、无限风格适应性、适用于所有想好好说故事的团的游戏系统。
       </>
     ),
   },
@@ -23,16 +23,16 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus 提供了優秀的文件檢視模式與排版，方便在任何界面下閱讀。
+        Docusaurus 提供了优秀的文件检视模式与排版，方便在任何界面下阅读。
       </>
     ),
   },
   {
-    title: '歡迎找我討論',
+    title: '欢迎找我讨论',
     Svg: require('@site/static/img/undraw_around_the_world.svg').default,
     description: (
       <>
-        歡迎找我一起討論命運的規則，或是回報網站的錯誤與臭蟲，<a href='https://www.plurk.com/wayne930242' target='_blank'>洪偉的噗浪</a>、<a href='https://wayneh.tw/' target='_blank'>部落格</a>。
+        欢迎找我一起讨论命运的规则，或是回报网站的错误与臭虫，<a href='https://www.plurk.com/wayne930242' target='_blank'>洪伟的噗浪</a>、<a href='https://wayneh.tw/' target='_blank'>部落格</a>。
       </>
     ),
   },

@@ -13,7 +13,7 @@ function AddStunt({
       className="cursor-pointer my-4 w-32 rounded-lg hover:bg-slate-500 text-slate-500 py-3 text-lg hover:text-white flex justify-center print:hidden"
       data-bs-toggle="modal" data-bs-target="#newStuntModal"
     >
-      新增絕技
+      新增绝技
     </div>
   )
 }
@@ -32,13 +32,13 @@ function Stunt({
           className="font-extrabold hover:underline hover:text-slate-600"
           contentEditable
           suppressContentEditableWarning
-        >{"編輯名稱"}</span>
+        >{"编辑名称"}</span>
         ：
         <span
           className="hover:underline hover:text-slate-600 indent-8"
           contentEditable
           suppressContentEditableWarning
-        >{"編輯描述。"}</span>
+        >{"编辑描述。"}</span>
       </div>
     </div>
   )
@@ -85,7 +85,7 @@ export function RegularStunts(): JSX.Element {
 
   return (
     <div className="h-full mb-16 md:mb-0">
-      <Title>一般絕技</Title>
+      <Title>一般绝技</Title>
       <BlockContainer>
         {stuntComponents}
         {stuntNum >= refreshMax + 2 ? null : (

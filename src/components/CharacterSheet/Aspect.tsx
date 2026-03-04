@@ -13,10 +13,10 @@ export function Aspects(): JSX.Element {
             高概念
           </InputWithLabel>
           <InputWithLabel name="trouble" id="trouble">
-            麻煩
+            麻烦
           </InputWithLabel>
           <InputWithLabel name="relationship" id="relationship">
-            關係
+            关系
           </InputWithLabel>
           <InputWithLabel name="other-aspect" id="other-aspect-1">
             其他形象
