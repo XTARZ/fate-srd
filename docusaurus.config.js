@@ -6,9 +6,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula')
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '命運濃縮版',
-  tagline: '由洪偉所維護的 Fate 中文版 SRD 網站',
-  url: 'https://fate-srd.wayneh.tw',
+  title: '命运浓缩版',
+  tagline: '由洪偉所維護的 Fate 中文版 SRD 網站——再由 XTARZ 维护简体中文版本',
+  url: 'https://fate-srd.xtarz.cn',
   baseUrl: '/',
   trailingSlash: false,
   onBrokenLinks: 'throw',
@@ -25,6 +25,16 @@ const config = {
   i18n: {
     defaultLocale: 'zh-CN',
     locales: ['zh-CN', 'zh-TW'],
+    localeConfigs: {
+      "zh-CN": {
+        url: 'https://fate-srd.xtarz.cn',
+        baseUrl: '/',
+      },
+      'zh-TW': {
+        url: 'https://fate-srd.wayneh.tw/',
+        baseUrl: '/',
+      },
+    },
   },
 
   plugins: [
