@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula')
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: '命运浓缩版',
-  tagline: '由洪偉所維護的 Fate 中文版 SRD 網站——再由 XTARZ 维护简体中文版本',
+  tagline: '由洪偉所维护的 Fate 中文版 SRD 网站——再由 XTARZ 维护简体中文版本',
   url: 'https://fate-srd.xtarz.cn',
   baseUrl: '/',
   trailingSlash: false,
@@ -81,7 +81,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Fate 濃縮版',
+        title: 'Fate 浓缩版',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -97,13 +97,17 @@ const config = {
             type: 'doc',
             docId: 'tools/fate-dice',
             position: 'left',
-            label: '命運骰',
+            label: '命运骰',
           },
           {
             type: 'doc',
             docId: 'tools/character-sheet',
             position: 'left',
             label: '角色卡',
+            target: '_blank',
+          }, {
+            type: 'localeDropdown',
+            position: 'right', 
             target: '_blank',
           },
           {

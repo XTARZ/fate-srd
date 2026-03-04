@@ -17,7 +17,7 @@ const sidebars = {
     'fate-condensed/intro',
     {
       type: 'category',
-      label: 'Fate 濃縮版',
+      label: 'Fate 浓缩版',
       collapsible: true,
       collapsed: false,
       items: [
