@@ -23,14 +23,14 @@ const config = {
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'zh-CN',
-    locales: ['zh-CN', 'zh-TW'],
+    defaultLocale: 'zh-Hans',
+    locales: ['zh-Hans', 'zh-Hant'],
     localeConfigs: {
-      "zh-CN": {
+      "zh-Hans": {
         url: 'https://fate-srd.xtarz.cn',
         baseUrl: '/',
       },
-      'zh-TW': {
+      'zh-Hant': {
         url: 'https://fate-srd.wayneh.tw/',
         baseUrl: '/',
       },
