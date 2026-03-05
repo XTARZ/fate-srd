@@ -12,7 +12,7 @@ const config = {
   baseUrl: '/',
   trailingSlash: false,
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  markdown: { hooks: { onBrokenMarkdownLinks: 'warn' } },
   favicon: 'img/favicon.ico',
 
   // GitHub pages deployment config.
@@ -24,10 +24,19 @@ const config = {
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'zh-tw',
-    locales: ['zh-tw'],
+    defaultLocale: 'zh-Hant',
+    locales: ['zh-Hant', 'zh-Hans'],
+    localeConfigs: {
+      'zh-Hant': {
+        url: 'https://fate-srd.wayneh.tw/',
+        baseUrl: '/',
+      },
+      "zh-Hans": {
+        url: 'https://fate-srd.xtarz.cn',
+        baseUrl: '/',
+      },
+    },
   },
-
   plugins: [
     async function myPlugin(context, options) {
       return {
@@ -96,6 +105,10 @@ const config = {
             position: 'left',
             label: '角色卡',
             target: '_blank',
+          },
+          {
+            type: 'localeDropdown',
+            position: 'right',
           },
           {
             href: 'https://github.com/wayne930242/fate-srd',
